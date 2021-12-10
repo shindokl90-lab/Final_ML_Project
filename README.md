@@ -33,11 +33,13 @@ included information that did not contribute to our model
 -Final database:  824k records, 8 columns
 
 # Activities:
+
 -Clean-up
 
 ---Drop non-essential and duplicate columns 
 
 ---Drop records including NaN values
+
 
 -Selection
 
@@ -46,20 +48,23 @@ loans that were either “fully paid” or “charged off”)
 
 ---Drop loans for people employed more than 10 years
 
+
 -Conversion / Manipulation
 
 ---Convert certain columns from string to binary values 
 
 ---Convert date ranges to integers
 
+
 # Training our ML Model:
 
--To predict a potential borrower’s loan approval grade (risk) from 
+To predict a potential borrower’s loan approval grade (risk) from 
 inputs entered on our website
 
 # Tools Used: 
 
 -Jupyter Notebook, Python Pandas, TensorFlow, SkLearn, Numpy, Pickle
+
 
 # Modeling criteria:  
 1. Employment Length (10 years or less)
@@ -73,13 +78,15 @@ inputs entered on our website
 
 # Models considered:  
 
-We tested several different models (Random Forest, Logistic Regression, Neural Network) to find which would generate the best results 
+-We tested several different models (Random Forest, Logistic Regression, Neural Network) to find which would generate the best results 
+
 
 # Website
 
 -Tools Used:  HTML, CSS, JS, Tableau, Flask, Bootstrap
 
 -Model Used:  Random Forest
+
 
 # Functionality:
 
@@ -109,6 +116,7 @@ ranges for length of employment)
 and difficult  to work with related to modeling (17 hours), we 
 should have looked at a smaller number of years 
 
+
 -Modeling
 
 ---Have a more rigorous initial discussion of which method / 
@@ -131,10 +139,11 @@ English” from binary code
 ---Making sure that all the different web components 
 effectively communicated with each other 
 
+
 # Generalizations about our Model:
 
 Our model seemed to work well predicting grades, compared to past data
-But ... we didn’t understand why Lending Club was approving loans for 
+but ... we didn’t understand why Lending Club was approving loans for 
 certain grades (E, F, G) where the historical default rates were over 40%
 
 
