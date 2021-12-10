@@ -1,4 +1,4 @@
-# Lending Club | Predicting Applicant Loan
+# Lending Club | Predicting Applicant Loan Risk
 ## Project Summary:
 Lending Club is America's largest online credit marketplace, and the first 
 marketplace bank connecting borrowers and investors. We wanted to 
