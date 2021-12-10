@@ -156,5 +156,3 @@ effectively communicated with each other
 Our model seemed to work well predicting grades, compared to past data
 but ... we didn’t understand why Lending Club was approving loans for 
 certain grades (E, F, G) where the historical default rates were over 40%
-
-
