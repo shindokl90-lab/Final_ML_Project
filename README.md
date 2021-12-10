@@ -105,7 +105,7 @@ We tested several different models (Random Forest, Logistic Regression, Neural N
 -Allow the user to better understand grading criteria and 
 outcomes by providing visualizations of historical grading data 
 
--Allow the user to see the relationship between the historical 
+-Allow the user to see visualizaations of the relationship between the historical 
 grading data and loan repayment status 
 
 
