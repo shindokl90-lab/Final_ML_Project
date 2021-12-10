@@ -34,14 +34,14 @@ included information that did not contribute to our model
 
 # Activities:
 
--Clean-up
+**Clean-up**
 
 ---Drop non-essential and duplicate columns 
 
 ---Drop records including NaN values
 
 
--Selection
+**Selection**
 
 ---Drop records for open / active loans (we only included 
 loans that were either “fully paid” or “charged off”) 
@@ -49,7 +49,7 @@ loans that were either “fully paid” or “charged off”)
 ---Drop loans for people employed more than 10 years
 
 
--Conversion / Manipulation
+**Conversion / Manipulation**
 
 ---Convert certain columns from string to binary values 
 
@@ -101,7 +101,7 @@ grading data and loan repayment status
 
 # Considerations – Learnings:
 
--Dataset Choice
+**Dataset Choice**
 
 ---There was no way to compare the two initial datasets related
 to approved vs. rejected loans
@@ -117,7 +117,7 @@ and difficult  to work with related to modeling (17 hours), we
 should have looked at a smaller number of years 
 
 
--Modeling
+**Modeling**
 
 ---Have a more rigorous initial discussion of which method / 
 model would be the best approach
@@ -131,7 +131,7 @@ dataset and related limitations
 machines
 
 
--Website
+**Website**
 
 ---Making sure we translated all our data back into “plain 
 English” from binary code
