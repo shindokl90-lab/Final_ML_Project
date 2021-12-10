@@ -1,7 +1,5 @@
-## Lending Club | Predicting Applicant Loan
-# Final Project / Northwestern University Data Science
-
-# Project Summary:
+# Lending Club | Predicting Applicant Loan
+## Project Summary:
 Lending Club is America's largest online credit marketplace, and the first 
 marketplace bank connecting borrowers and investors. We wanted to 
 explore the factors going into their  applicant grade (risk) assessments.
