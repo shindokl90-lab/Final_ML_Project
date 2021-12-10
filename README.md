@@ -15,8 +15,7 @@ Features include: home ownership, fico credit score etc.
 
 Machine Learning Models Used: 
 1. Random Forest 
-2. Deep Learning 
-3. Logistic Regression
-4. KNN (K-nearest neighbor) 
+2. Logistic Regression
+3. KNN (K-nearest neighbor) 
 
 
