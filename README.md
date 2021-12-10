@@ -29,9 +29,13 @@ Jupyter Notebook, Python Pandas, Numpy
 
 # Database: 
 
-**Initial database: ** 2.2m records, 151 columns
+**Initial database:**
 
-**Final database: ** 824k records, 8 columns
+-2.2m records, 151 columns
+
+**Final database:** 
+
+-824k records, 8 columns
 
 # Activities:
 
@@ -84,9 +88,13 @@ We tested several different models (Random Forest, Logistic Regression, Neural N
 
 # Website
 
-**Tools Used: ** HTML, CSS, JS, Tableau, Flask, Bootstrap
+**Tools Used: ** 
 
-**Model Used:**  Random Forest
+-HTML, CSS, JS, Tableau, Flask, Bootstrap
+
+**Model Used:**  
+
+-Random Forest
 
 
 # Functionality:
