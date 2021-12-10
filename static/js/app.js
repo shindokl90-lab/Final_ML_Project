@@ -2,8 +2,32 @@ var userInput = [];
 
 function loadGrade(parameter) {
     
-    console.log(parameter);
-    var result = d3.select(".result").text(parameter);
+    switch(parameter) {
+        case 0:
+            var letterGrade = "A";
+            break;
+        case 1:
+            var letterGrade = "B";
+            break;
+        case 2:
+            var letterGrade = "C";
+            break;
+        case 3:
+            var letterGrade = "D";
+            break;
+        case 4:
+            var letterGrade = "E";
+            break;
+        case 5:
+            var letterGrade = "F";
+            break;
+        case 6:
+            var letterGrade = "G";
+            break;
+
+    }
+    console.log(letterGrade);
+    var result = d3.select(".result").text(letterGrade);
     /*d3.json("/calculate").then(response => {
         userInput = response;
         //writeGrade();
