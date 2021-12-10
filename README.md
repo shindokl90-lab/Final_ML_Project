@@ -39,14 +39,14 @@ Jupyter Notebook, Python Pandas, Numpy
 
 # Activities:
 
-**Clean-up**
+**Clean-up:**
 
 -Drop non-essential and duplicate columns 
 
 -Drop records including NaN values
 
 
-**Selection**
+**Selection:**
 
 -Drop records for open / active loans (we only included 
 loans that were either “fully paid” or “charged off”) 
@@ -54,7 +54,7 @@ loans that were either “fully paid” or “charged off”)
 -Drop loans for people employed more than 10 years
 
 
-**Conversion / Manipulation**
+**Conversion / Manipulation:**
 
 -Convert certain columns from string to binary values 
 
@@ -72,6 +72,7 @@ Jupyter Notebook, Python Pandas, TensorFlow, SkLearn, Numpy, Pickle
 
 
 # Modeling criteria:  
+
 1. Employment Length (10 years or less)
 2. FICO Score (Range High) 
 3. Application Type (Joint or Individual)
@@ -86,9 +87,9 @@ Jupyter Notebook, Python Pandas, TensorFlow, SkLearn, Numpy, Pickle
 We tested several different models (Random Forest, Logistic Regression, Neural Network) to find which would generate the best results 
 
 
-# Website
+# Website:
 
-**Tools Used: ** 
+**Tools Used:** 
 
 -HTML, CSS, JS, Tableau, Flask, Bootstrap
 
@@ -110,7 +111,7 @@ grading data and loan repayment status
 
 # Considerations – Learnings:
 
-**Dataset Choice**
+**Dataset Choice:**
 
 -There was no way to compare the two initial datasets related
 to approved vs. rejected loans
@@ -126,7 +127,7 @@ and difficult  to work with related to modeling (17 hours), we
 should have looked at a smaller number of years 
 
 
-**Modeling**
+**Modeling:**
 
 -Have a more rigorous initial discussion of which method / 
 model would be the best approach
@@ -140,7 +141,7 @@ dataset and related limitations
 machines
 
 
-**Website**
+**Website:**
 
 -Making sure we translated all our data back into “plain 
 English” from binary code
@@ -149,7 +150,7 @@ English” from binary code
 effectively communicated with each other 
 
 
-# Generalizations about our Model:
+# Generalizations from our Model:
 
 Our model seemed to work well predicting grades, compared to past data
 but ... we didn’t understand why Lending Club was approving loans for 
