@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Lending Club Loan</title>
+        <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
+        <link href="../static/css/style.css" rel="stylesheet" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
+        <!-- Our CSS -->
+        <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+    </head>
+    
+    <body class="sb-nav-fixed">
+
+        
+        <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+            <!-- Navbar Brand-->
+            <div class="col col-md-9">
+                <a class="navbar-brand ps-3" href="/">Lending Club Loan Approval Predicter</a>
+            </div>
+            <div class="col col-md-1">
+                <a class="navbar-brand ps-3" href="/assessment">Loan Grader</a> 
+            </div>
+            <div class="col col-md-1">
+                <a class="navbar-brand ps-3" href="/repayment">Repayment Data</a> 
+            </div>
+            <div class="col col-md-1">
+                <a class="navbar-brand ps-3" href="/grade">Grade Data</a> 
+            </div>                 
+        </nav>
+
+        <div class="container">
+          <div class="row" style="margin-top:30px; margin-bottom:30px">
+          </div>
+        </div>
+                 
+            <div id="layoutSidenav_content">
+                <main>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col col-3">
+                      </div>
+                    </div>
+                    <div class="container-fluid px-4">
+                        <h1 class="mt-4" style="text-align:center">What grade would your loan application likely receive?</h1>
+                        <ol class="breadcrumb mb-4">
+                            <li class="breadcrumb-item active"></li>
+                        </ol>
+                        <div class="row">
+                            <h4 class="mb-0 font-weight-normal d-none d-sm-block">
+                                Take the assessment below to get your loan approval grade
+                                <br> <br>
+                            </h4>
+                        </div>
+                
+                        <div class="row">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-8">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <strong>Questions for Loan Grader</strong>
+                                    </div>
+                                    <div class="card-body">
+                                        <label for="basic-url" class="form-label">1. What loan amount would you like to borrow?</label>
+                                        <div class="input-group mb-3">
+                                            <input type="text" id="loanAmount" class="form-control" placeholder="ex. 13000" aria-label="amount" aria-describedby="basic-addon1">
+                                        </div>
+                                        <label for="basic-url" class="form-label">2. What is your home ownership status?</label>
+                                        <div class="input-group mb-3">
+                                            <input type="text" id="home" class="form-control" placeholder="Own, Rent, Mortgage" aria-label="amount" aria-describedby="basic-addon1">
+                                        </div>
+                                        <label for="basic-url" class="form-label">3. How long have you been employed?</label>
+                                        <div class="input-group mb-3">
+                                            <input type="text" id="yearsOfEmployment" class="form-control" placeholder="ex. 2" aria-label="amount" aria-describedby="basic-addon1">
+                                        </div>
+                                        <label for="basic-url" class="form-label">4. What is your most recent FICO score?</label>
+                                        <div class="input-group mb-3">
+                                            <input type="text" id="FICO" class="form-control" placeholder="ex. 630" aria-label="amount" aria-describedby="basic-addon1">
+                                        </div>
+                                        <label for="basic-url" class="form-label">5. Are you applying as an individual or jointly?</label>
+                                        <div class="input-group mb-3">
+                                            <input type="text" id="appType" class="form-control" placeholder="'Individual' or 'Joint App'" aria-label="amount" aria-describedby="basic-addon1">
+                                        </div>
+                                        <label for="basic-url" class="form-label">6. What is your annual income?</label>
+                                        <div class="input-group mb-3">
+                                            <input type="text" id="income" class="form-control" placeholder="ex. 48403" aria-label="amount" aria-describedby="basic-addon1">
+                                        </div>
+                                        <!--<a type="button" id="Submit" class="btn btn-dark" href="/calculate">Calculate!</a> -->
+                                        <a type="button" id="Submit" class="btn btn-dark">Calculate!</a>
+                                        
+                                        <p><br>Your Grade is: 
+                                            <!-- Value will appear here -->
+                                            <div class="result" style="font-size:36px"><strong></strong> </div></p>
+                                        
+                                        <p><br>Click
+                                            <a href="https://public.tableau.com/app/profile/steve.reiss/viz/HistorialData-LendingClubLoansandGrade/Story1?publish=yes">here</a>
+                                            to see some averages / breakouts for each of the approval grades (A - G)
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+
+
+                </main>
+                <footer class="py-4 bg-light mt-auto">
+                    <div class="container-fluid px-4">
+                        <div class="d-flex align-items-center justify-content-between small">
+                            <div class="text-muted">NW DATA VISUALIZATION BOOTCAMP 2021 PROJECT 3 <br>Copyright &copy; Your Website 2021</div>
+                            <div>
+                                <a href="#">Privacy Policy</a>
+                                &middot;
+                                <a href="#">Terms &amp; Conditions</a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+        <script src="../static/js/app.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
+      
+       
+      
+      
+    </body>
+</html>
