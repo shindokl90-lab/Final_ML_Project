@@ -30,15 +30,13 @@ def grade():
         with open(f'scaler.pkl', 'rb') as scale:
             scaler = pickle.load(scale)
 
-        #set up dummy data(user input)
-        inputs = [[content['loanAmount'], content['income'], content['FICO'], 3.0, 1, 1, 0]]
+        #set up user input
+        inputs = [[content['loanAmount'], content['income'], content['FICO'], content['yearsOfEmployement'], content[
+            home'], 0, content['appType]]]
         inputs_scaled = scaler.transform(inputs)
 
         # run prediction
         predictions = model.predict(inputs_scaled)[0]
-
-        # Test
-        #inputValues = 
 
         # print the response
         return f"{predictions}"
