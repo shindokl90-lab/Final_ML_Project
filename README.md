@@ -92,7 +92,7 @@ We tested several different models (Random Forest, Logistic Regression, Neural N
 
 **Tools Used:** 
 
--HTML, CSS, JS, Tableau, Flask, Bootstrap
+-HTML, CSS, JS, Tableau, Flask, Bootstrap, Heroku
 
 **Model Used:**  
 
